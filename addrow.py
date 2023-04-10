@@ -15,6 +15,6 @@ import openpyxl
 #                        columns=["ФИО", "Дата рождения", "Должность", "Холост/Женат", "Количество детей"])
 # my_data.to_excel("SG.xlsx")
 
-data = pd.read_excel('SG.xlsx')
+data = pd.read_excel('test.xlsx')
 data.append({"ФИО": "Плавский Сергей Викторович", "Дата рождения": "01 января 2000", "Должность": "Начальник ЦЗТ",
             "Холост/Женат": 1, "Количество детей": 2}, ignore_index=True)
